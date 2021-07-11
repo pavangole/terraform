@@ -1,0 +1,15 @@
+1) Create VPC
+CIDR : 10.0.0.0/16
+
+2) Internet Gateway
+
+3) Attach IGW to the VPC
+
+4) Subnet 
+count = 2
+name : unique name : loop concept
+
+5) Create Routing Table
+Internet : 0.0.0.0/0 got to igw : Step 2
+
+6) Attach routing table to personal labs
